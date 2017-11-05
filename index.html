@@ -9,24 +9,23 @@
 <body>
 
 	<div class="container">
-		<div class="hero">
+		<div class="hero" id="home">
 			<div class="hero-content">
 				<h1>Mock Page</h1>
 				<h2>by Chris Yang</h2>
 			</div>
-		</div>
-
-		<div class="nav">
-			<div class="navbtn">
-				<a href="#">Home</a>
-				<a href="#">Section 1</a>
-				<a href="#">Section 2</a>
-				<a href="#">Section 3</a>
-				<a href="#">Contact</a>
+			<div class="nav">
+				<div class="navbtn">
+					<a href="#home">Home</a>
+					<a href="#section1">Section 1</a>
+					<a href="#section2">Section 2</a>
+					<a href="#contact">Contact</a>
+				</div>
 			</div>
 		</div>
-		
+
 		<div class="section1">
+			<a class="anchor" id="section1"></a>
 			<h2>Section Title</h2>
 			<hr>
 			<div class="section1-content">
@@ -54,6 +53,7 @@
 		</div>
 
 		<div class="section2">
+			<a class="anchor" id="section2"></a>
 			<div class="section2-content">
 				<h2>Section Title</h2>
 				<h4>Section Subtitle</h4>
@@ -65,20 +65,11 @@
 			</div>
 		</div>
 
-		<div class="section3">
-
-		</div>
-
-		<div class="contact">
+		<div class="contact" id="contact">
 			<div class="contact-content">
 				<div class="contact-info">
 					<h2>Wanna get in touch?</h2>
 					<h4>Leave me a message!</h4>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-					</div>
 				</div>
 				<div class="form">
 					<form action="#">
@@ -87,6 +78,11 @@
 						<textarea id="subject" placeholder="Tell me what you need help with!" required></textarea>
 						<input type="submit" id="submit" value="Submit">
 					</form>
+				</div>
+				<div class="social">
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
