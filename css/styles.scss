@@ -87,7 +87,6 @@ img {
 	bottom: 0;
 	width: 100%;
 	height: 75px;
-	text-align: center;
 	background-color: #ededed;
 	box-shadow: 0 1px 0 0 $black;
 	z-index: 10;
@@ -95,9 +94,10 @@ img {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		height: 100%;
 		a {
-			padding: 1.2em 2.5em;
-			font-size: 1.2em;
+			padding: 0 1em;
 			font-weight: bold;
 			&:after {
 				content: "";
@@ -197,7 +197,7 @@ img {
 /* CONTACT ----------------------------------------------------------- */
 .contact {
 	width: 100%;
-	margin-bottom: 6em;
+	margin-bottom: 4em;
 	.contact-content {
 		display: flex;
 		flex-wrap: wrap;
@@ -213,16 +213,6 @@ img {
 	h4 {
 		margin: 0.5em;
 		margin-bottom: 2em;
-	}
-}
-
-.social {
-	width: 100%;
-	margin-top: 2em;
-	font-size: 2em;
-	text-align: center;
-	a {
-		margin: 0.7em;
 	}
 }
 
@@ -261,8 +251,18 @@ img {
 	}
 }
 
+.social {
+	width: 100%;
+	margin-top: 2em;
+	font-size: 2em;
+	text-align: center;
+	a {
+		margin: 1em;
+	}
+}
+
 /* MEDIA QUERIES ----------------------------------------------------------- */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 750px) {
 	.section1-item {
 		width: 50%;
 	}
