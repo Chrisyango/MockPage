@@ -96,7 +96,7 @@ img {
 		justify-content: center;
 		align-items: center;
 		a {
-			padding: 1.2em 1.5em;
+			padding: 1.2em 2.5em;
 			font-size: 1.2em;
 			font-weight: bold;
 			&:after {
@@ -156,7 +156,7 @@ img {
 }
 
 .section1-item {
-	width: 25%;
+	width: 100%;
 	margin: 1em 0;
 	padding: 2em;
 	i {
@@ -178,7 +178,7 @@ img {
 }
 
 .section2-content {
-	width: 35%;
+	width: 100%;
 	margin: auto;
 	padding: 2em;
 	text-align: center;
@@ -191,7 +191,7 @@ img {
 }
 
 .section2-img {
-	width: 45%;
+	width: 100%;
 }
 
 /* CONTACT ----------------------------------------------------------- */
@@ -207,7 +207,7 @@ img {
 }
 
 .contact-info {
-	width: 50%;
+	width: 100%;
 	margin: auto;
 	text-align: center;
 	h4 {
@@ -227,7 +227,7 @@ img {
 }
 
 .form {
-	width: 50%;
+	width: 100%;
 	#name,
 	#email {
 		width: 49%;
@@ -262,28 +262,28 @@ img {
 }
 
 /* MEDIA QUERIES ----------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media (min-width: 850px) {
 	.section1-item {
 		width: 50%;
 	}
 }
 
-@media only screen and (max-width: 850px) {
+@media (min-width: 1200px) {
 	.section1-item {
-		width: 100%;
+		width: 25%;
 	}
 	.section2-content {
-		width: 100%;
-		order: 2;
-	}
-	.section2-img {
-		width: 100%;
+		width: 35%;
 		order: 1;
 	}
+	.section2-img {
+		width: 45%;
+		order: 2;
+	}
 	.contact-info {
-		width: 100%;
+		width: 50%;
 	}
 	.form {
-		width: 100%;
+		width: 50%;
 	}
 }
