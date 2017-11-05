@@ -212,7 +212,7 @@ img {
   font-size: 2em;
   text-align: center; }
   .social a {
-    margin: 1em; }
+    margin: 0.5em; }
 
 /* MEDIA QUERIES ----------------------------------------------------------- */
 @media only screen and (min-width: 750px) {
